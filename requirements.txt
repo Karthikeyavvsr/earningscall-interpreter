@@ -1,0 +1,8 @@
+whisper
+ffmpeg
+torch
+yfinance
+spacy
+textblob
+haystack
+streamlit
