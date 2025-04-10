@@ -6,3 +6,4 @@ spacy
 textblob
 haystack
 streamlit
+
