@@ -3,11 +3,11 @@
 An AI-powered tool that transcribes, analyzes, and simplifies earnings calls for investors and analysts.
 
 ## Features
-- 🎙️ Transcribe earnings call audio files (Whisper)
-- 📊 Sentiment and entity extraction
-- 📚 Glossary with financial term definitions
-- 🤖 Chatbot to answer transcript-based questions
-- 📈 Real-time stock price insights
+-  Transcribe earnings call audio files (Whisper)
+-  Sentiment and entity extraction
+-  Glossary with financial term definitions
+-  Chatbot to answer transcript-based questions
+-  Real-time stock price insights
 
 ## Project Structure
 ```
