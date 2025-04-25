@@ -79,34 +79,26 @@ This application provides a multi-tab interface for comprehensive analysis:
 
 ## ⚙️ Project Structure
 
-
 earningscall-interpreter/
 ├── .streamlit/
-│   └── secrets.toml                # 🔐 API keys (user-defined)
+│   └── secrets.toml               # API Key storage (must be user-defined)
 ├── app/
-│   └── app.py                      # 🚀 Main Streamlit app
-├── utils/                          # 🛠 Utility scripts
+│   └── app.py                     # Main Streamlit application script
+├── utils/
 │   ├── chatbot_utils.py           # Gemini Q&A logic
-│   ├── financials_utils.py        # Regex-based financial term extraction
-│   ├── glossary_utils.py          # Glossary loader & search
+│   ├── financials_utils.py        # Financial mentions extraction (RegEx)
+│   ├── glossary_utils.py          # Glossary loading and searching
 │   ├── pdf_utils.py               # PDF text extraction, AI summary
-│   ├── predictive_model_utils.py  # ML-based stock movement predictions
-│   ├── sentiment_utils.py         # Sentiment scoring (volatility, confidence, etc.)
-│   ├── stock_info.py              # Ticker detection & yFinance/Finnhub data
-│   └── web_fetch_utils.py         # Smart fetch from investor pages
+│   ├── predictive_model_utils.py  # Predictive analytics models
+│   ├── sentiment_utils.py         # Sentiment scoring logic
+│   ├── stock_info.py              # Ticker detection & stock data fetching
+│   └── web_fetch_utils.py         # Smart Fetch logic (IR scraping + fallback)
 ├── data/
-│   └── cache/                      # Cached stock data (JSON)
+│   └── cache/                     # Local JSON cache for stock info
 ├── glossary/
-│   └── finance_terms.json         # Custom finance glossary
-├── notebooks/                     # 📓 Jupyter prototypes
-│   ├── 01_transcription_whisper.ipynb
-│   ├── 02_nlp_sentiment_entity.ipynb
-│   ├── 03_jargon_buster.ipynb
-│   ├── 04_chatbot_QA.ipynb
-│   └── 05_stock_price_insights.ipynb
-├── requirements.txt               # 📦 Python dependencies
-└── README.md                     
-
+│   └── finance_terms.json         # Financial terms glossary
+├── requirements.txt               # Python dependencies
+└── README.md                      # This documentation file
 ## 🚀 Setup & Installation
 
 1.  **Clone the repository:**
