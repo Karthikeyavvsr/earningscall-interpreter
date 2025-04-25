@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # AI-Driven Earnings Call Interpreter
-=======
+
 # EarningsPulse: AI-Driven Earnings Call Interpreter 📈
 >>>>>>> 1cb4f09e (🚀 Major v2 Update: Added Smart Fetch, PDF analysis, predictive analytics, advanced charting)
 
