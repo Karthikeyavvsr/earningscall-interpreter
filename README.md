@@ -21,8 +21,6 @@ models/      → Any models used or downloaded
 utils/       → Helper functions
 glossary/    → Glossary definitions (JSON or CSV)
 ```
-
-## Setup (Coming Soon)
 Instructions to run locally and on Colab.
 =======
 ## ✨ Features
