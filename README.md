@@ -79,32 +79,31 @@ This application provides a multi-tab interface for comprehensive analysis:
 
 ## ⚙️ Project Structure
 earningscall-interpreter/
-│
 ├── .streamlit/
-│   └── secrets.toml        # API Key storage (MUST be created by user)
-│
+│   └── secrets.toml                # 🔐 API keys (user-defined)
 ├── app/
-│   └── app.py              # Main Streamlit application script
-│
-├── utils/
-│   ├── chatbot_utils.py    # Gemini Q&A logic
-│   ├── financials_utils.py # Financial mentions extraction (RegEx)
-│   ├── glossary_utils.py   # Glossary loading and searching
-│   ├── pdf_utils.py        # PDF text extraction, AI Summary
-│   ├── predictive_model_utils.py # Predictive models
-│   ├── sentiment_utils.py  # Sentiment scoring logic
-│   ├── stock_info.py       # Ticker detection, stock data fetching (yfinance/Finnhub)
-│   └── web_fetch_utils.py  # Smart Fetch logic (scraping & fallback search)
-│
+│   └── app.py                      # 🚀 Main Streamlit app
+├── utils/                          # 🛠 Utility scripts
+│   ├── chatbot_utils.py           # Gemini Q&A logic
+│   ├── financials_utils.py        # Regex-based financial term extraction
+│   ├── glossary_utils.py          # Glossary loader & search
+│   ├── pdf_utils.py               # PDF text extraction, AI summary
+│   ├── predictive_model_utils.py  # ML-based stock movement predictions
+│   ├── sentiment_utils.py         # Sentiment scoring (volatility, confidence, etc.)
+│   ├── stock_info.py              # Ticker detection & yFinance/Finnhub data
+│   └── web_fetch_utils.py         # Smart fetch from investor pages
 ├── data/
-│   └── cache/              # Local JSON cache for stock info
-│   └── finance_terms.json  # (Alternative location for glossary)
-│
+│   └── cache/                      # Cached stock data (JSON)
 ├── glossary/
-│   └── finance_terms.json  # Predefined financial terms glossary
-│
-├── requirements.txt        # Project dependencies
-└── README.md               # This file
+│   └── finance_terms.json         # Custom finance glossary
+├── notebooks/                     # 📓 Jupyter prototypes
+│   ├── 01_transcription_whisper.ipynb
+│   ├── 02_nlp_sentiment_entity.ipynb
+│   ├── 03_jargon_buster.ipynb
+│   ├── 04_chatbot_QA.ipynb
+│   └── 05_stock_price_insights.ipynb
+├── requirements.txt               # 📦 Python dependencies
+└── README.md                     
 ## 🚀 Setup & Installation
 
 1.  **Clone the repository:**
@@ -165,4 +164,3 @@ Ensure your virtual environment is activated. Then run:
 
 ```bash
 streamlit run app/app.py
->>>>>>> 1cb4f09e (🚀 Major v2 Update: Added Smart Fetch, PDF analysis, predictive analytics, advanced charting)
