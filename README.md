@@ -78,6 +78,8 @@ This application provides a multi-tab interface for comprehensive analysis:
 * **Environment:** venv
 
 ## ⚙️ Project Structure
+
+
 earningscall-interpreter/
 ├── .streamlit/
 │   └── secrets.toml                # 🔐 API keys (user-defined)
@@ -104,11 +106,12 @@ earningscall-interpreter/
 │   └── 05_stock_price_insights.ipynb
 ├── requirements.txt               # 📦 Python dependencies
 └── README.md                     
+
 ## 🚀 Setup & Installation
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repo-url>
+    git clone <https://github.com/Karthikeyavvsr/earningscall-interpreter>
     cd earningscall-interpreter
     ```
 
