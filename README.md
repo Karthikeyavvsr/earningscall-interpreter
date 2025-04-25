@@ -1,11 +1,10 @@
 # AI-Driven Earnings Call Interpreter
 
 # EarningsPulse: AI-Driven Earnings Call Interpreter 📈
->>>>>>> 1cb4f09e (🚀 Major v2 Update: Added Smart Fetch, PDF analysis, predictive analytics, advanced charting)
+🚀 Major v2 Update: Added Smart Fetch, PDF analysis, predictive analytics, advanced charting
 
 EarningsPulse is a web application built with Python and Streamlit designed to analyze corporate earnings call transcripts, audio files, and financial reports. It leverages various AI and data analysis techniques to extract insights, sentiment, key financial data, and related stock information.
 
-<<<<<<< HEAD
 ## Features
 -  Transcribe earnings call audio files (Whisper)
 -  Sentiment and entity extraction
