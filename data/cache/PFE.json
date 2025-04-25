@@ -1,0 +1,17 @@
+{
+    "company": "Pfizer, Inc.",
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - General",
+    "market_cap": 129195638784,
+    "dividend_yield": 7.68,
+    "current_price": 22.78,
+    "pe_ratio": 16.156029,
+    "forward_pe": 7.774744,
+    "revenue": 63627001856,
+    "net_income": 8019999744,
+    "guidance": 7.774744,
+    "fifty_two_week_high": 31.54,
+    "fifty_two_week_low": 20.92,
+    "beta": 0.597,
+    "_source": "yfinance"
+}

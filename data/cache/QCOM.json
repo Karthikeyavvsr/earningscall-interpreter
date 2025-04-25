@@ -1,0 +1,17 @@
+{
+    "company": "QUALCOMM Incorporated",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": 162814263296,
+    "dividend_yield": 2.53,
+    "current_price": 147.21,
+    "pe_ratio": 15.880259,
+    "forward_pe": 12.036796,
+    "revenue": 40696000512,
+    "net_income": 10478999552,
+    "guidance": 12.036796,
+    "fifty_two_week_high": 230.63,
+    "fifty_two_week_low": 120.8,
+    "beta": 1.287,
+    "_source": "yfinance"
+}

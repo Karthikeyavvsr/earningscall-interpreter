@@ -1,0 +1,17 @@
+{
+    "company": "JP Morgan Chase & Co.",
+    "sector": "Financial Services",
+    "industry": "Banks - Diversified",
+    "market_cap": 679878983680,
+    "dividend_yield": 2.32,
+    "current_price": 244.64,
+    "pe_ratio": 12.003926,
+    "forward_pe": 14.614099,
+    "revenue": 168730001408,
+    "net_income": 58242998272,
+    "guidance": 14.614099,
+    "fifty_two_week_high": 280.25,
+    "fifty_two_week_low": 188.46,
+    "beta": 1.005,
+    "_source": "yfinance"
+}
