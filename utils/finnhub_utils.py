@@ -2,7 +2,7 @@
 
 import requests
 
-FINNHUB_API_KEY = "d018oq9r01qile5u5a50d018oq9r01qile5u5a5g"
+FINNHUB_API_KEY = "YOur key goes here"
 BASE_URL = "https://finnhub.io/api/v1"
 
 def get_finnhub_quote(symbol):
